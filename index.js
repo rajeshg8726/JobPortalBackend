@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 
 app.use(cors());
 app.use(cors({
-  origin: 'https://rgjobs.in/',
+  origin: 'https://rgjobs.in',
 }));
 // Serve static files from the 'public' directory
 app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
